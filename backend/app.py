@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = '5q4UpOLlenCwNHgPdq7qkuD3Ib3wWEU1jhnRORYV'  
+API_KEY = 'NASA_API_KEY' 
 
 @app.route('/apod')
 def apod():
